@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+/* body{
+    background-image: url(back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: rgb(97, 129, 217);
+  height: 40px;
+  font-size: 20px;
+}
+.right {
+  margin-left: -590px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -190px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.left ul {
+  margin-right: -50px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+.home:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.about:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.skill:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.aducation:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.contact:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/***** start aboutContainer Section *****/
+
+.heading{
+  text-align:center;
+}
+ .heading,h2{
+     font-size: 1.5rem;
+     color: #868a90;
+     margin-bottom: 3px;
+}
+.heading h1{
+  font-size: 3.5rem;
+}
+
+.aboutsection{
+padding:50px 0px;
+}
+
+.experience_and_education{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.aboutcontainer{
+  margin-top: 5px;
+  /* border: 2px solid black; */
+}
+.customContainer{
+  margin-inline: 5vw;
+}
+.more{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top:25px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.Imgcontainer img{
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #EED9F1;
+  border: 2px solid black;
+  box-shadow: 0px 8px 15px 1px black;
+}
+
+.rightsection{
+  margin-top: 10px;
+}
+
+/* .intro{
+  font-size: 30px;
+} */
+
+
+.content span:nth-child(1){
+  font-size: 30px;
+}
+
+.content span:nth-child(2){
+  font-size: 40px;
+}
+.content span:nth-child(3){
+  font-size: 25px;
+}
+.content span:nth-child(4){
+  font-size: 20px;
+}
+
+.emojicontainer {
+    font-size: 2rem; /* Adjust the size of the emoji */
+    animation: wave-animation 2s infinite ease-in-out;
+    display: inline-block;
+    transform-origin: 70% 70%; /* Adjust the pivot point for the wave */
+}
+
+@keyframes wave-animation {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+}
+
+/***** End  aboutContsiner Section *****

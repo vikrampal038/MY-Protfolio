@@ -1,0 +1,240 @@
+/***** Start About Me Section CSS *****/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0e5f5;
+}
+
+.aboutsection {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 1.5rem;
+  color: gray;
+  margin-bottom: -15px;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+.aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Imgcontainer img {
+  max-width: 100%;
+  border-radius: 50px;
+  border: 2px solid black;
+  box-shadow: 0px 8px 15px 1px black;
+  background: radial-gradient(circle, rgba(238, 217, 241, 1) 0%, rgba(57, 53, 47, 1) 100%);
+  margin-bottom: 20px;
+}
+
+.experience_and_education {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 10px;
+  width: 80%;
+}
+
+.content span {
+  display: block;
+  margin: 5px 0;
+}
+
+.more {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 25px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.emojicontainer {
+  font-size: 2rem;
+  animation: wave-animation 2s infinite ease-in-out;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+}
+
+/***** Responsive Design *****/
+
+/* Tablets and smaller desktop screens */
+@media (max-width: 1024px) {
+  .aboutcontainer {
+    grid-template-columns: 1fr;
+  }
+
+  .experience_and_education,
+  .more {
+    padding: 15px;
+  }
+
+  .content span {
+    font-size: 1rem;
+  }
+
+  .more {
+    font-size: 0.9rem;
+  }
+
+  .emojicontainer {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .heading h2 {
+    font-size: 1.25rem;
+  }
+
+  .aboutsection {
+    padding: 30px 10px;
+  }
+
+  .experience_and_education,
+  .more {
+    padding: 10px;
+  }
+
+  .content span {
+    font-size: 0.8rem;
+  }
+
+  .more {
+    font-size: 0.8rem;
+  }
+
+  .emojicontainer {
+    font-size: 1.2rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .heading h2 {
+    font-size: 1rem;
+  }
+
+  .aboutsection {
+    padding: 20px 5px;
+  }
+
+  .content span,
+  .more {
+    font-size: 0.7rem;
+  }
+
+  .emojicontainer {
+    font-size: 1rem;
+  }
+}
+
+/***** End About Me Section CSS *****/
+
+/***** Start Footer Section CSS *****/
+footer {
+  color: black;
+  padding: 10px;
+  margin-top: -50px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+/* Footer Nav Bar section */
+.footer_new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -75px;
+}
+
+.footer_nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_nav ul li {
+  margin: 0 10px;
+}
+
+.footer_nav ul li a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Responsive Footer */
+
+/* Tablets and smaller desktop screens */
+@media (max-width: 1024px) {
+  .footer_nav ul li a {
+    font-size: 20px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .footer_nav ul li a {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .footer_nav ul li a {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+}
+
+/***** End Footer Section CSS *****/

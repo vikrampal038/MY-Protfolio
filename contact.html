@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="Stylesheet" href="contact.css">
+    <title>Developer_Vikram Portfilio</title>
+</head>
+<body>
+   <header>
+    <nav>
+
+    <div class="right"> Vikram Portfolio </div>
+    <div class="left">
+        <ul>
+            <li><a class="home" href="/"> Home </a></li>
+            <li><a class="about" href="About.html"> About </a></li>
+            <li><a class="skill" href="skill.html"> Skill </a></li>
+            <li><a class="education" href="education.html">Education </a></li>
+            <li><a class="contact" href="contact.html"> Contact</a> </a></li>
+        </ul>
+            </div>
+        </nav>  
+    </header>
+    <main>
+        <div class="element">
+            <h1>CONTACT ME</h1>
+            <P>We Would love to respond to your queries and help you succeed.
+            Feel free to get in touch with us.</P>
+
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send Your Request</h3>
+
+                    <form onsubmit="sendEmail(); reset(); return false;"> 
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" id="name"  placeholder="Your Name" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Phone No</label>
+                                <input type="number" id="number"  placeholder="Your Number" required>
+                            </div>
+                        </div>
+
+                        
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="text" id="email"  placeholder="Your Email" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" id="subject "  placeholder="Product Name" required>
+                            </div>
+                        </div>
+
+                        <label>Message</label>
+                        <textarea rows="5" id="message "  placeholder="Enter Your Message"></textarea>
+
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach Us</h3>
+
+                    <table class="contain">
+                        <tr>
+                            <td>Email:</td>
+                            <td>vikrampal038@gmail.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Phone:</td>
+                            <td>+91 996 731 9725</td>
+                        </tr>
+
+                        <tr>
+                            <td>Address:</td>
+                            <td>B.M.C Colony Santosh Nagar<br>
+                            Goregaon (East) Mumbai-400065<br>
+                            Maharashtra India</td>
+                        </tr>
+                    </table>
+                    <div class="Social">
+                        <a href="#"><i class="fa-brands fa-github icone"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin icone"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter icone"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook icone"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram icone"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "developervikram24@gmail.com",
+                Password : "24sep2003",
+                To : "vikrampal038@gmail.com",
+                From : document.getElementById("email").value,
+                Subject : "This is the subject",
+                Body : "Name:" + document.getElementById("name").value
+                + "<br> Phone No:" +  document.getElementById("number").value
+                + "<br> Email:" +  document.getElementById("email").value
+                + "<br> subject:" +  document.getElementById("subject").value
+                + "<br> Message:" +  document.getElementById("message").value
+            }).then(
+            message => alert("Message Sent Successfully")
+            );
+      }
+     </script>
+</body>
+</html>
