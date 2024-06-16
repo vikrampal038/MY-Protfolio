@@ -825,6 +825,7 @@ p {
   flex-direction: column;
   align-items: center;
   width: 300px;
+  height:auto ;
   border: 3px solid black;
   background-color: #fff;
   border-radius: 8px;
