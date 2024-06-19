@@ -7,6 +7,7 @@
 
 body,
 html {
+  /* background-color: #fcd4a1; */
   background-color: #e6e6e6;
   color: #02080f;
   overflow-x: hidden;
@@ -366,7 +367,7 @@ h2 {
 
 .aboutsection {
   padding: 50px 0px;
-  margin-top: 75px;
+  margin-top: 95px;
 }
 
 .experience_and_education {
@@ -399,6 +400,8 @@ h2 {
     rgba(57, 53, 47, 1) 100%
   );
   margin-top: 20px;
+  /* padding: 10px 10px; */
+  /* height: 500px; */
   border-radius: 50px;
   border: 2px solid black;
   box-shadow: 0px 8px 15px 1px black;
@@ -697,7 +700,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   margin-inline: 3.4vw;
-  margin-top: 60px;
+  margin-top: 15px;
 }
 
 .education_Container,
@@ -798,7 +801,7 @@ p {
 /***** Start main section for project *****/
 
 .pro_section .container {
-  /* margin-top: 30px; */
+  /* margin-top: 20px; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -945,7 +948,7 @@ p {
 /*Main section start form here*/
 
 .newcont {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .element {
   width: 80%;
