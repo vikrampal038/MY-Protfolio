@@ -36,7 +36,7 @@ nav {
 .right {
   font-weight: 700;
   font-size: 40px;
-  color: crimson;
+  color: #eb7d60;
   /* #7d1f8e; */
 }
 
@@ -112,13 +112,14 @@ nav ul li a {
   color: white;
 }
 .name {
-  color: #fc8f30;
+  color: white;
+  /* #fc8f30 */
   font-size: 40px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
 .detail {
-  color: #1fa3ca;
+  color: #eb7d60;
   font-size: 35px;
   font-weight: 700;
 }
@@ -174,7 +175,7 @@ nav ul li a {
   color: black;
   outline: none;
   margin: 10px;
-  background-color: crimson;
+  background-color: #eb7d60;
   cursor: pointer;
   font-weight: 700;
 }
@@ -204,7 +205,7 @@ nav ul li a {
 
 .homesocial .icones {
   margin-right: 25px;
-  color: crimson;
+  color: #038af8;
   border-radius: 50%;
 }
 
@@ -993,8 +994,9 @@ p {
 }
 
 .contact-box {
+  /* border: 5px solid white; */
   background-color: #7e7e7e;
-  color: black;
+  color: rgb(0, 0, 0);
   display: flex;
   border-radius: 20px;
 }
@@ -1055,7 +1057,7 @@ textarea {
 label {
   /* margin-bottom: 6px; */
   display: flex;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 23px;
   font-weight: 500;
 }
@@ -1073,7 +1075,7 @@ label {
   height: 40px;
   color: black;
   outline: none;
-  background-color: crimson;
+  background-color: #eb7d60;
   cursor: pointer;
   font-weight: 700;
   margin-top: 10px;
@@ -1089,7 +1091,7 @@ label {
 }
 
 .contact-left h3 {
-  color: #000000;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -1100,7 +1102,7 @@ label {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 tr td:first-child {
@@ -1126,7 +1128,8 @@ tr td {
 
 .Social .icone {
   margin-right: 30px;
-  color: crimson;
+  color: #038af8;
+  /* color: black; */
 }
 .Social a .icone:hover {
   font-size: 35px;
