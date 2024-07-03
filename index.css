@@ -60,7 +60,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  color: antiquewhite;
+  color: #eb7d60;
   /* black; */
 }
 
@@ -112,17 +112,30 @@ nav ul li a {
   color: white;
 }
 .name {
-  color: #ffffff;
+  color: #fc8f30;
   font-size: 40px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
 .detail {
-  color: #8DB932;
+  color: #1fa3ca;
   font-size: 35px;
   font-weight: 700;
-  text-decoration: underline;
-  text-decoration-color: #AAA9A9;
+}
+
+.detail::after {
+  content: "|";
+  animation: blink infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 .moreabout {
   color: white;
@@ -339,7 +352,7 @@ nav ul li a {
   color: rgb(255, 255, 255);
   cursor: pointer;
   font-size: 25px;
-  background-color: #4D4D4D;
+  background-color: #4d4d4d;
 }
 /* #eed9f1  bg color */
 .arrow-up {

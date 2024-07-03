@@ -30,4 +30,33 @@ document.getElementById("scrollDown").addEventListener("click", function () {
 //   });
 // });
 
+// this is Typing animation code
 
+const texts = [
+  "Full Stack Web Developer.",
+  "Front-End Developer.",
+  "Back-End Developer.",
+  "Web Designer.",
+];
+
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+(function type() {
+  if (count === texts.length) {
+    count = 0;
+  }
+  currentText = texts[count];
+  letter = currentText.slice(0, ++index);
+
+  document.querySelector(".detail").textContent = letter;
+  if (letter.length === currentText.length) {
+    count++;
+    index = 0;
+    setTimeout(type, 200); // Pause before starting next sentence
+  } else {
+    setTimeout(type, 50); // Typing speed
+  }
+})();
