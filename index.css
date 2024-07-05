@@ -282,7 +282,7 @@ nav ul li a {
   .navLinks {
     flex-direction: column;
     position: fixed;
-    background-color: rgba(188, 122, 200, 0.2);
+    background-color: #4d4d4d4c;
     backdrop-filter: blur(10px);
     height: 100vh;
     right: 0;
