@@ -15,21 +15,6 @@ navlist.forEach(function (element) {
   element.addEventListener("click", toggleMenu);
 });
 
-// this code is for Scrolling function
-
-document.getElementById("scrollDown").addEventListener("click", function () {
-  window.scrollBy({
-    top: window.innerHeight,
-    behavior: "smooth",
-  });
-});
-// document.getElementById("scrollUp").addEventListener("click", function () {
-//   window.scrollBy({
-//     top: -window.innerHeight,
-//     behavior: "smooth",
-//   });
-// });
-
 // this is Typing animation code
 
 const texts = [
