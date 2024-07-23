@@ -816,7 +816,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 225px;
+  width: 270px;
   background-color: #827d7d;
   border-radius: 8px;
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
@@ -830,8 +830,8 @@ p {
 }
 
 .pro_card img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   padding: 0 8px;
 }
 
@@ -863,7 +863,7 @@ p {
 }
 
 .btn i {
-  margin-right: 0.5rem; /* Add this to create space between icon and text */
+  margin-right: 0.5rem; /*Add this to create space between icon and text*/
   margin-left: 0.5rem;
 }
 
@@ -882,9 +882,10 @@ p {
   }
 
   .pro_card {
-    width: calc(30% - 0.7rem); /* Two columns of project cards */
+    width: calc(50% - 1rem); /* Two columns of project cards */
     margin-bottom: 1rem;
   }
+ 
 }
 
 /* Mobile devices */
@@ -894,9 +895,7 @@ p {
   }
 
   .pro_card {
-    width: calc(
-      50% - 3rem
-    ); /* Full width for single column of project cards */
+    width: calc(50% - 5rem); /* Full width for single column of project cards */
   }
 }
 
@@ -921,12 +920,13 @@ p {
     padding: 0.75rem; /* Reduced padding for project information */
   }
 
-   .btn {
+  .btn {
     font-size: 14px; /* Reduced font size for buttons */
     padding: 1px 1px; /*Adjusted padding for better fit*/
-   }
+  }
 }
 /***** End start Project Page Section *****/
+
 
 /***** Start Contact Page Session *****/
 .newcont {
@@ -1278,4 +1278,3 @@ footer {
   }
 }
 /***** End footer Section *****/
-
