@@ -12,6 +12,12 @@
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
          
+    <!-- line for swiper js -->
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
     <!--boxicone -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -41,7 +47,7 @@
 <!-- ========== Start header and Navbar Section ========== -->
    <header>
     <nav class="Home_nav  customContainer h-[70px] ">
-        <div class="right flex items-center ">VIKRAM PAL</div>
+        <div class="right flex items-center "><img src="./Assets/vikram logo.png" alt="Name Logo image" class="logoName"></div>
         <div class="left">
         <ul class="navLinks">
             <div class="navContainer">
@@ -282,67 +288,67 @@
 
 <!-- ========== Start Project Page Section ========== -->
     <section id="Project_Page" class="pro_section ">
-      <div class="container">
+      <!-- this container only for heading container -->
+      <div class="heading-container">
         <h2> Browse My Recent</h2>
         <h1 class="pro_title"> Projects </h1>
-        <div class="pro_grid" >
+      </div>
+      <!-- this container only forMain contain container -->
+      <div class="Container swiper ">
+        <div class="pro-slider-wrapper slider-wrapper">
+          <div class="Pro-list swiper-wrapper">
+            <!-- this is for Web ninja  -->
+            <div class="pro_item swiper-slide">
+                  <h3>WEB NINJA</h3>
+                  <a href="https://vikram-web-ninja.netlify.app/" target="_blank">
+                    <img src="./Assets/card-1.jpg" alt="web ninja img"/></a>
+                    <p>
+                    This project is for practice purposes only to check my Tailwind CSS skills.
+                    </p>
+                    <a href= "https://github.com/vikrampal038/WEB-NINJA" target="_blank" class="btn"
+                      ><i class="fa-brands fa-github"></i>Github</a>
 
-          <!-- this is for Web ninja  -->
-          <div class="pro_card">
-            <h3>WEB NINJA</h3>
-            <a href="https://vikram-web-ninja.netlify.app/" target="_blank">
-              <img src="./Assets/card-1.jpg" alt="web ninja img"/></a>
-            <div class="pro_info">
-              <p>
-              This project is for practice purposes only to check my Tailwind CSS skills.
-              </p>
-              <a href= "https://github.com/vikrampal038/WEB-NINJA" target="_blank" class="btn"
-                ><i class="fa-brands fa-github"></i>Github</a>
+            </div>
+            <!-- this is for cimon game-->
+             <div class="pro_item swiper-slide">
+                  <h3>Cimon Game</h3>
+                  <a href="https://simon-game-by-vikram.netlify.app/" target="_blank">
+                    <img src="./Assets/card-2.png" alt="cimon-Game img"/></a>
+                    <p>
+                      Simon Game is a memory game where players repeat sequences of colors and sounds.
+                    </p>
+                    <a href="https://github.com/vikrampal038/simon_game" target="_blank" class="btn"
+                      ><i class="fa-brands fa-github"></i>Github</a>
+            </div>
+            <!-- this is for to-do list -->
+            <div class="pro_item swiper-slide">
+                  <h3>To-Do List</h3>
+                  <a href="https://to-do-list-by-vikram.netlify.app" target="_blank">
+                  <img src="./Assets/card-3.jpg" alt="to-do list img"/></a>
+                  <p>
+                    Efficient to-do list app designed to help manage daily tasks and
+                    boost productivity effectively.
+                  </p>
+                  <a href="https://github.com/vikrampal038/To-do_List" target="_blank" class="btn"
+                  ><i class="fa-brands fa-github"></i>Github</a>
+            </div>
+            <!-- this is for Calculator  -->
+            <div class="pro_item swiper-slide">
+                  <h3>Calculator</h3>
+                  <a href="https://calculator-by-vikrampal.netlify.app" target="_blank">
+                  <img src="./Assets/card-4.png" alt="to-do list img"/></a>
+                    <p>
+                    A simple, stylish calculator with basic operations and responsive design for all screen sizes.
+                    </p>
+                    <a href= "https://github.com/vikrampal038/My_Calculator" target="_blank" class="btn"
+                    ><i class="fa-brands fa-github"></i>Github</a>
             </div>
           </div>
-
-          <!-- this is for cimon game -->
-          <div class="pro_card">
-            <h3>Cimon Game</h3>
-            <a href="https://simon-game-by-vikram.netlify.app/" target="_blank">
-              <img src="./Assets/card-2.jpeg" alt="cimon-Game img"/></a>
-            <div class="pro_info">
-              <p>
-                Simon Game is a memory game where players repeat sequences of colors and sounds.
-              </p>
-              <a href="https://github.com/vikrampal038/simon_game" target="_blank" class="btn"
-                ><i class="fa-brands fa-github"></i>Github</a>
-            </div>
-          </div>
-
-          <!-- this is for to-do list -->
-          <div class="pro_card">
-            <h3>To-Do List</h3>
-            <a href="https://to-do-list-by-vikram.netlify.app" target="_blank">
-              <img src="./Assets/card-3.jpg" alt="to-do list img"/></a>
-            <div class="pro_info">
-              <p>
-                Efficient to-do list app designed to help manage daily tasks and
-                boost productivity effectively.
-              </p>
-              <a href="https://github.com/vikrampal038/To-do_List" target="_blank" class="btn"
-                ><i class="fa-brands fa-github"></i>Github</a>
-            </div>
-          </div>
-
-              <!-- this is for Calculator  -->
-          <div class="pro_card">
-            <h3>Calculator</h3>
-            <a href="https://calculator-by-vikrampal.netlify.app" target="_blank">
-              <img src="./Assets/card-4.jpg" alt="to-do list img"/></a>
-            <div class="pro_info">
-              <p>
-               A simple, stylish calculator with basic operations and responsive design for all screen sizes.
-              </p>
-              <a href= "https://github.com/vikrampal038/My_Calculator" target="_blank" class="btn"
-                ><i class="fa-brands fa-github"></i>Github</a>
-            </div>
-          </div>
+          <!-- this is swipper pagination din--> 
+          <div class="swiper-pagination"></div>
+          <!-- this is swipper button -->
+          <div class="swiper-slide-button swiper-button-prev project-btn-prev"></div>
+          <div class="swiper-slide-button swiper-button-next  project-btn-next"></div>
         </div>
       </div>
     </section>
@@ -362,7 +368,7 @@
             <div class="contact-box">
                 <div class="contact-left" data-aos="zoom-in-down" data-aos-duration="500" >
                     <h3>Send Your Request</h3>
-            <!-- ========== Start this is input Section for deatils ========== -->
+                <!-- ========== Start this is input Section for deatils ========== -->
                 <!-- form here start first col -->
                         <div class="input-row">
                  <!-- this input for name label -->
@@ -374,7 +380,7 @@
                 <!-- this input for Phone no. label -->
                             <div class="input-group">
                                 <label>Phone No</label>
-                                <input type="number" id="number"  placeholder="Your Number" name="number" required>
+                                <input type="number" maxlength="10" id="number"  placeholder="Your Number" name="number" required>
                             </div>
                         </div>
 
@@ -402,10 +408,11 @@
                              <button type="submit" class="Conbutton">SEND</button>
                          </div>
                 </div>
+                </form>
 <!-- ========== End this is input Section for deatils ========== -->
 
         <!-- now form here start right section for details -->
-                  </form>
+                  
                 <div class="contact-right"  data-aos="zoom-in-up"" data-aos-duration="500">
                     <h3>Reach Us</h3>
 
@@ -454,7 +461,12 @@
 
 <!-- ========== Start footer Section ========== -->
 <footer>
-  <nav class="footer_new">
+ <div class="footer_container">
+   <div class="footer_logo&batch">
+    <img class="footer_logoName" src="./Assets/vikram logo.png" alt="footer Logo Name">
+    <!-- <img class="footer_batch1" src="./Assets/Batch-1.png" alt="footer Batch1"> -->
+  </div>
+  <nav class="F-NAV">
     <div class="footer_nav">
       <ul class="footer_link">
         <li><a class="home" href="#"> Home</a></li>
@@ -464,12 +476,22 @@
         <li><a class=" Projects" href="#Project_Page"> Projects</a></li>
       </ul>
   </nav>
-    <p class="text-center">Copyright &#169; 2024 Vikram Suraj Pal. All Rights Reserved.</p>
+   <!-- <div class="footer_batch2">
+    <img class="footer_batch2" src="./Assets/ganpati.jpg" alt="footer Batch2">
+  </div> -->
+ </div>
+  <div class="footer_para">
+      <p class="text-center">Copyright &#169; 2024 Vikram Suraj Pal. All Rights Reserved.</p>
+      <div class="arrow arrow-up" id="scrollUp" onclick="location.href='./#'"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+  </div>
 </footer>
   <!-- ========== End footer Section ========== -->
 
   
  <!-- ========== Start scripting Section ========== -->
+  <!-- this script line for Swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <script>
     AOS.init();
   </script>
