@@ -28,6 +28,7 @@ nav {
   flex-direction: column;
   gap: 10px;
 }
+
 /* #7d1f8e logo name color option; */
 /* .right img {
   font-weight: 700;
@@ -311,6 +312,7 @@ nav ul li a {
   .close {
     display: block;
     position: absolute;
+    font-size: 30px;
     top: 20px;
     left: 12px;
   }
@@ -319,6 +321,7 @@ nav ul li a {
   }
   .menu {
     display: block;
+    font-size: 30px;
   }
 }
 
@@ -344,6 +347,12 @@ nav ul li a {
   }
   .nav {
     margin: 0;
+  }
+  .right .logoName {
+    width: 170px;
+  }
+  .rightSection img {
+    margin: 55px 30px 0 0;
   }
 }
 /***** End index css file Section *****/
@@ -542,6 +551,10 @@ h2 {
   }
   .aboutsection {
     margin-top: 10px;
+  }
+  .img {
+    max-width: 90%;
+    height: auto;
   }
 }
 /***** End aboutContsiner Section *****/
@@ -1354,7 +1367,7 @@ footer {
 .footer_para p {
   color: #fff;
   margin: 15px 0 10px 0;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-weight: 300;
 }
 
@@ -1391,6 +1404,9 @@ footer {
   }
   .footer_batch2 {
     display: none;
+  }
+  .footer_logoName {
+    width: 170px;
   }
 }
 /***** End footer Section *****/
